@@ -1,0 +1,69 @@
+body { 
+    font-family: Arial, sans-serif;
+    line-height: 1.6; 
+    color: #333; 
+} 
+.container { 
+    max-width: 1100px; 
+    margin: auto; 
+    overflow: hidden; 
+} 
+.profile-header { 
+    background-color: #0fb1a6; 
+    color: #fff; 
+    padding: 2rem 0; 
+    
+} 
+.logo { 
+    float: left; 
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 50%; 
+    margin-right: 2rem; 
+} 
+.profile-info { 
+    float: left; 
+} 
+.profile-info h1 { 
+    margin: 0 0 0.5rem 0; 
+} 
+.edit-profile-btn { 
+    float: right; 
+    background-color: #fff; 
+    color: #007bff; 
+    border: none; 
+    padding: 0.5rem 2rem; 
+    border-radius: 0.25rem; 
+    cursor: pointer; 
+    font-size: 1rem; 
+} 
+.education, .connection-requests, .connections { 
+    margin: 2rem 0; 
+} 
+.education h2, .connection-requests h2, .connections h2 { 
+    color: #007bff; 
+    margin-bottom: 1rem; 
+} 
+.education-details, .request-list, .connections-list { 
+    display: flex; 
+    flex-wrap: wrap; 
+    margin: 1rem -1rem; 
+} 
+.education-text, .request-item, .connection-item { 
+    flex: 1 0 300px; 
+    margin: 1rem; 
+    background-color: #f4f4f4; 
+    padding: 1rem; 
+    border-radius: 0.25rem; 
+} 
+.education-text p, .request-item p, .connection-item p { 
+    margin: 0; 
+} 
+.request-profile-pic, .connection-profile-pic {
+    width: 64px; 
+    height: 64px; 
+    object-fit: cover; 
+    border-radius: 50%; 
+    margin-right: 1rem; 
+}
